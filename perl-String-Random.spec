@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Random
+%define		pdir	String
+%define		pnam	Random
 Summary:	String::Random - Perl module to generate random strings based on a pattern
 Summary(pl):	String::Random - modu³ Perla do generowania losowych ³añcuchów na podstawie wzoru
 Name:		perl-String-Random
