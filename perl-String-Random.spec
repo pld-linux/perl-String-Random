@@ -11,7 +11,8 @@ Name:		perl-String-Random
 Version:	0.20
 Release:	1
 Epoch:		1
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	20e704a98633ad7b62ae2a73859dd37b
