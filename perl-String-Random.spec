@@ -5,10 +5,10 @@
 %define	pdir	String
 %define	pnam	Random
 Summary:	String::Random - Perl module to generate random strings based on a pattern
-#Summary(pl):	
+Summary(pl):	String::Random - modu³ Perla do generowania losowych ³añcuchów na podstawie wzoru
 Name:		perl-String-Random
 Version:	0.198
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,8 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 String::Random is used to generate random strings.  It was written to
 make generating random passwords and such a little easier.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ String::Random s³u¿y do generowania losowych ³añcuchów. Zosta³
+napisany, aby uczyniæ znacznie ³atwiejszym generowanie losowych hase³.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -30,6 +31,7 @@ make generating random passwords and such a little easier.
 %build
 perl Makefile.PL
 %{__make}
+
 %{!?_without_tests:%{__make} test}
 
 %install
