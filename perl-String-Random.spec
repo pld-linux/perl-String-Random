@@ -9,7 +9,7 @@ Summary:	String::Random - Perl module to generate random strings based on a patt
 Summary(pl):	String::Random - modu³ Perla do generowania losowych ³añcuchów na podstawie wzoru
 Name:		perl-String-Random
 Version:	0.20
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
