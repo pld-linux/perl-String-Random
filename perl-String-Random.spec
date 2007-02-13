@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Random
 Summary:	String::Random - Perl module to generate random strings based on a pattern
-Summary(pl.UTF-8):   String::Random - moduł Perla do generowania losowych łańcuchów na podstawie wzoru
+Summary(pl.UTF-8):	String::Random - moduł Perla do generowania losowych łańcuchów na podstawie wzoru
 Name:		perl-String-Random
 Version:	0.22
 Release:	1
