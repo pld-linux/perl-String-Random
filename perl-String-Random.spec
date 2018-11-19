@@ -8,14 +8,14 @@
 Summary:	String::Random - Perl module to generate random strings based on a pattern
 Summary(pl.UTF-8):	String::Random - moduł Perla do generowania losowych łańcuchów na podstawie wzoru
 Name:		perl-String-Random
-Version:	0.22
+Version:	0.30
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/String/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c0319f95c56450624cc646f7425e327e
+# Source0-md5:	d54ea58b992d9a2a1966051a4816693f
 URL:		http://search.cpan.org/dist/String-Random/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
